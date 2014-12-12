@@ -1,0 +1,29 @@
+<configuration>
+
+  <appender
+    name="STDOUT"
+    class="ch.qos.logback.core.ConsoleAppender">
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <!-- <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern> -->
+      <pattern>%d{HH:mm:ss.SSS}\(%.-1level\) %msg \(%logger{0}\)%n%rEx{full}
+      </pattern>
+    </encoder>
+  </appender>
+
+  <root level="WARN">
+    <appender-ref ref="STDOUT" />
+  </root>
+
+  <logger
+    name="status"
+    level="WARN" />
+
+  <logger
+    name="eu.fbk.rdfpro"
+    level="INFO" />
+
+  <logger
+    name="eu.fbk.eso"
+    level="TRACE" />
+
+</configuration>
