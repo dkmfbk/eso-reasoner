@@ -20,15 +20,6 @@
   </organization>
 
   <repositories>
-    <repository>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <id>stettler</id>
-      <name>Internal repository on stettler.fbk.eu</name>
-      <layout>default</layout>
-      <url>http://stettler.fbk.eu/maven/</url>
-    </repository>
   </repositories>
 
   <dependencies>

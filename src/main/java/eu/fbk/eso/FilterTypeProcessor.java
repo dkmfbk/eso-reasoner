@@ -105,7 +105,7 @@ public class FilterTypeProcessor implements RDFProcessor {
 
 			if (pass != null) {
 				for (Statement statement : model) {
-					if (statement.getPredicate().equals(RDF.TYPE)) {
+					if (statement.getPredicate().equals(RDF.TYPE) && statement.getObject() instanceof URI) {
 						URI resource = (URI) statement.getObject();
 						if (resource.getNamespace().equals(pass)) {
 //							System.out.println(statement);
