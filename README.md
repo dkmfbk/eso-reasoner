@@ -22,6 +22,12 @@ This is an addon to RDFpro that applies the rules of the ESO ontology and create
 * Copy `eso-reasoner-x.x-SNAPSHOT.jar` from `target/` folder to the `lib/` folder in the RDFpro install dir
 * If you run `rdfpro -h` you will see the list of available commands, included the new ones
 
+### Examples of use ###
+
+* `rdfpro @read /path/to/input.ttl @esoreasoner /path/to/ontology.owl @write /path/to/output.ttl`
+* `rdfpro @read /path/to/input.ttl @reformattime @write /path/to/output.ttl`
+* `rdfpro @read /path/to/input.ttl @filtertype @write /path/to/output.ttl`
+
 ### License ###
 
 This software is released under the [WTFPL license, version 2.0](http://www.wtfpl.net/about/).
