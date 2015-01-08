@@ -1,13 +1,13 @@
 # README #
 
-This is an addon to RDFpro that applies the rules of the ESO ontology and creates the resulting Situation(s).
+This is an addon to RDFpro that applies the rules of the [Event Situation Ontology (ESO)](https://github.com/newsreader/eso) and creates the resulting Situation(s).
 
 ### What is this repository for? ###
 
-* `@esoreasoner` Performs reasoning according to the ESO ontology supplied
-    [-i]          emits only inferences (default: emit also explicit statements)
-    [-b BASE]     use BASE to resolve URIs in the ESO ontology files (default: empty)
-    [-w]          rewrites BNodes in the ESO ontology file to avoid clashes
+* `@esoreasoner` Performs reasoning according to the ESO owl supplied  
+    [-i]          emits only inferences (default: emit also explicit statements)  
+    [-b BASE]     use BASE to resolve URIs in the ESO ontology files (default: empty)  
+    [-w]          rewrites BNodes in the ESO ontology file to avoid clashes  
     FILE...       the file(s) of the ESO ontology
 * `@reformattime` Perform filter on time entities, converting single time entities into integer values.
 * `@filtertype` Perform filter on predicates, leaving only one kind of event for each
