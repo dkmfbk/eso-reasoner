@@ -12,7 +12,7 @@ This is an addon to RDFpro that applies the rules of the ESO ontology and create
 * `@reformattime` Perform filter on time entities, converting single time entities into integer values.
 * `@filtertype` Perform filter on predicates, leaving only one kind of event for each
 
-### Set up ###
+### Setup ###
 
 * Download or checkout **RDFpro** from the [official website](http://fracor.bitbucket.org/rdfpro/) and expand it
 * From the RDFpro folder, run `mvn package install -DskipTests`
