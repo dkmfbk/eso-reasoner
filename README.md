@@ -30,4 +30,4 @@ This is an addon to RDFpro that applies the rules of the [Event Situation Ontolo
 
 ### License ###
 
-This software is released under the [WTFPL license, version 2.0](http://www.wtfpl.net/about/).
+This software is released under the [Public Domain CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/).
