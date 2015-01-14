@@ -11,6 +11,7 @@ This is an addon to RDFpro that applies the rules of the [Event Situation Ontolo
     * `FILE...`       the ESO owl file
 * `@reformattime` Perform filter on time entities, converting single time entities into integer values.
 * `@filtertype` Perform filter on predicates, leaving only one kind of event for each
+* `@removeobeqsub` Remove triples having the same subject and object
 
 ### Setup ###
 
