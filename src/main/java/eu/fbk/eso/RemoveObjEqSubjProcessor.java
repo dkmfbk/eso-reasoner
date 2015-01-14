@@ -14,6 +14,8 @@ import javax.annotation.Nullable;
 public class RemoveObjEqSubjProcessor implements RDFProcessor {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(RemoveObjEqSubjProcessor.class);
+	private boolean switchBehavior;
+	
 	/**
 	 * Internal factory method called by RDFpro to create and initialize the processor starting
 	 * from supplied command line arguments.
@@ -26,11 +28,14 @@ public class RemoveObjEqSubjProcessor implements RDFProcessor {
 		// Parse and validate options. See Options class for spec syntax. Can also do the parsing
 		// on your own by directly manipulating the args parameter (as in a regular main()
 		// function)
-		Options.parse("", args);
-		return new RemoveObjEqSubjProcessor();
+		final Options options = Options.parse("i", args);
+		final boolean switchBehavior = options.hasOption("i");
+
+		return new RemoveObjEqSubjProcessor(switchBehavior);
 	}
 
-	public RemoveObjEqSubjProcessor() {
+	public RemoveObjEqSubjProcessor(boolean switchBehavior) {
+		this.switchBehavior = switchBehavior;
 	}
 
 	@Override
@@ -47,10 +52,16 @@ public class RemoveObjEqSubjProcessor implements RDFProcessor {
 		@Override
 		public void handleStatement(Statement statement) throws RDFHandlerException {
 			
+			boolean isEqual = false;
+
 			if (statement.getObject().stringValue().equals(statement.getSubject().stringValue())) {
-				return;
+				isEqual = true;
 			}
 
+			if (isEqual ^ switchBehavior) {
+				return;
+			}
+			
 			super.handleStatement(statement);
 		}
 	}
