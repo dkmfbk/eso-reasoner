@@ -2,7 +2,9 @@
 
 This is an addon to RDFpro that applies the rules of the [Event Situation Ontology (ESO)](https://github.com/newsreader/eso) and creates the resulting Situation(s).
 
-### What is this repository for? ###
+### Contents ###
+
+This repository contains four new processors for **RDFpro**.
 
 * `@esoreasoner [-i] [-b BASE] [-w] FILE...` Performs reasoning according to the ESO owl supplied  
     * `[-i]`          emits only inferences (default: emit also explicit statements)
