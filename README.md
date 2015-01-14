@@ -4,13 +4,14 @@ This is an addon to RDFpro that applies the rules of the [Event Situation Ontolo
 
 ### What is this repository for? ###
 
-* `@esoreasoner` Performs reasoning according to the ESO owl supplied  
-    * [-i]          emits only inferences (default: emit also explicit statements)
-    * [-b BASE]     use BASE to resolve URIs in the ESO ontology files (default: empty)
-    * [-w]          rewrites BNodes in the ESO ontology file to avoid clashes
-    * FILE...       the file(s) of the ESO ontology
+* `@esoreasoner [-i] [-b BASE] [-w] FILE...` Performs reasoning according to the ESO owl supplied  
+    * `[-i]`          emits only inferences (default: emit also explicit statements)
+    * `[-b BASE]`     use BASE to resolve URIs in the ESO ontology files (default: empty)
+    * `[-w]`          rewrites BNodes in the ESO ontology file to avoid clashes
+    * `FILE...`       the ESO owl file
 * `@reformattime` Perform filter on time entities, converting single time entities into integer values.
 * `@filtertype` Perform filter on predicates, leaving only one kind of event for each
+* `@removeobeqsub` Remove triples having the same subject and object
 
 ### Setup ###
 
@@ -30,4 +31,4 @@ This is an addon to RDFpro that applies the rules of the [Event Situation Ontolo
 
 ### License ###
 
-This software is released under the [WTFPL license, version 2.0](http://www.wtfpl.net/about/).
+This software is released under the [Public Domain CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/).
