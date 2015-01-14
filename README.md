@@ -14,6 +14,7 @@ This repository contains four new processors for **RDFpro**.
 * `@reformattime` Perform filter on time entities, converting single time entities into integer values.
 * `@filtertype` Perform filter on predicates, leaving only one kind of event for each
 * `@removeobeqsub` Remove triples having the same subject and object
+    * `[-i]` invert the behavior (delete triples with different object/subject)
 
 ### Setup ###
 
