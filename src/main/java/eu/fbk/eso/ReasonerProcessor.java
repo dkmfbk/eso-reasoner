@@ -140,7 +140,10 @@ public class ReasonerProcessor implements RDFProcessor {
 							return;
 						}
 
+						// http://www.newsreader-project.eu/instances
+						
 						URI situation = ValueFactoryImpl.getInstance().createURI(event.stringValue() + "_" + situationName);
+						URI situationGraph = ValueFactoryImpl.getInstance().createURI("http://www.newsreader-project.eu/situation-graph");
 						HashSet<Statement> situations = new HashSet<>();
 
 						// Situation Rules
@@ -210,15 +213,15 @@ public class ReasonerProcessor implements RDFProcessor {
 
 							Statement s;
 
-							s = ValueFactoryImpl.getInstance().createStatement(situation, RDF.TYPE, ESO.situation);
+							s = ValueFactoryImpl.getInstance().createStatement(situation, RDF.TYPE, ESO.situation, situationGraph);
 							handler.handleStatement(s);
 //							System.out.println(s);
-							s = ValueFactoryImpl.getInstance().createStatement(event, ruleType, situation);
+							s = ValueFactoryImpl.getInstance().createStatement(event, ruleType, situation, situationGraph);
 							handler.handleStatement(s);
 //							System.out.println(s);
 
 							for (Statement time : times) {
-								s = ValueFactoryImpl.getInstance().createStatement(situation, time.getPredicate(), time.getObject());
+								s = ValueFactoryImpl.getInstance().createStatement(situation, time.getPredicate(), time.getObject(), situationGraph);
 								handler.handleStatement(s);
 //								System.out.println(s);
 							}
