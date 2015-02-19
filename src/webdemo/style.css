@@ -40,3 +40,7 @@ span.during-situation {
 span.post-situation {
 	background-color: #dfd;
 }
+
+#navigation > li > span {
+	font-weight: bold;
+}
