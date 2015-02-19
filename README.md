@@ -32,6 +32,10 @@ This repository contains four new processors for **RDFpro**.
 * `rdfpro @read /path/to/input.ttl @reformattime @write /path/to/output.ttl`
 * `rdfpro @read /path/to/input.ttl @filtertype @write /path/to/output.ttl`
 
+### Demo ###
+
+You can see a demo of the ESO reasoner in [this page](https://knowledgestore2.fbk.eu/reasoner/).
+
 ### License ###
 
 This software is released under the [Public Domain CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/).
