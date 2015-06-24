@@ -36,7 +36,7 @@
 					</div>
 					<div class="checkbox">
 						<label>
-						<input name="example" type="checkbox"> Use an example file (upload no needed)
+						<input name="example" type="checkbox"> Use an example file (upload not needed)
 						</label>
 					</div>
 					<div class="checkbox">
