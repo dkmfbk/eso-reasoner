@@ -1,0 +1,1222 @@
+
+<http://www.newsreader-project.eu/instances> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> a <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Translocation> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Placing> , <http://www.newsreader-project.eu/ontologies/framenet/Placing> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> a <http://www.newsreader-project.eu/ontologies/framenet/Bringing> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Transportation> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> a <http://www.newsreader-project.eu/ontologies/framenet/Bringing> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Transportation> .
+	
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> a <http://www.newsreader-project.eu/ontologies/SPEECH_COGNITIVE> , <http://www.newsreader-project.eu/ontologies/framenet/Bringing> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Transportation> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> a <http://www.newsreader-project.eu/domain-ontology#InEmployment> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/ontologies/framenet/Employing> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> a <http://www.newsreader-project.eu/ontologies/framenet/Sending> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Giving> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> a <http://www.newsreader-project.eu/ontologies/framenet/Getting> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Getting> .
+	
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> a <http://www.newsreader-project.eu/ontologies/framenet/Giving> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Giving> .
+	
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> a <http://www.newsreader-project.eu/ontologies/framenet/Sending> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Giving> .
+	
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> a <http://www.newsreader-project.eu/ontologies/framenet/Getting> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Getting> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> a <http://www.newsreader-project.eu/ontologies/framenet/Bringing> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Transportation> .
+	
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> a <http://www.newsreader-project.eu/ontologies/framenet/Hiring> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#JoiningAnOrganization> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> a <http://www.newsreader-project.eu/domain-ontology#LeavingAnOrganization> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/ontologies/framenet/Firing> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> a <http://www.newsreader-project.eu/ontologies/framenet/Getting> , <http://semanticweb.cs.vu.nl/2009/11/sem/Event> , <http://www.newsreader-project.eu/domain-ontology#Getting> .
+	
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.w3.org/2000/01/rdf-schema#label> "draw" .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.w3.org/2000/01/rdf-schema#label> "rub" .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.w3.org/2000/01/rdf-schema#label> "ferry" .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.w3.org/2000/01/rdf-schema#label> "ferry" .
+	
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.w3.org/2000/01/rdf-schema#label> "transport" , "carry" .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.w3.org/2000/01/rdf-schema#label> "employ" .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.w3.org/2000/01/rdf-schema#label> "send" .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.w3.org/2000/01/rdf-schema#label> "acquire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.w3.org/2000/01/rdf-schema#label> "give" .
+	
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.w3.org/2000/01/rdf-schema#label> "dispatch" .
+	
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.w3.org/2000/01/rdf-schema#label> "sign" , "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.w3.org/2000/01/rdf-schema#label> "gain" .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.w3.org/2000/01/rdf-schema#label> "transport" .
+	
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.w3.org/2000/01/rdf-schema#label> "hire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.w3.org/2000/01/rdf-schema#label> "sack" .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.w3.org/2000/01/rdf-schema#label> "acquire" .
+	
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#char=2380,2385> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#char=131,136> , <http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#char=451,456> .
+	
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#char=98,103> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#char=55,60> .
+	
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#char=8,13> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#char=7,12> , <http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#char=78,83> .
+	
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#char=61,67> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#char=1928,1933> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#char=611,619> .
+	
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#char=1990,1998> , <http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#char=897,906> .
+	
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#char=1628,1636> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#char=1050,1055> .
+	
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#char=1282,1286> .
+	
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#char=100,109> .
+	
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#char=1639,1643> .
+	
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#char=811,821> .
+	
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#char=37,42> , <http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#char=727,733> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#char=1011,1017> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#char=424,435> .
+	
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#char=331,336> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#char=623,629> .
+	
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://groundedannotationframework.org/gaf#denotedBy> <http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#char=466,474> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl132> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent> <http://dbpedia.org/resource/Silverjet> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent> <http://www.newsreader-project.eu/data/cars/entities/Richard_Peter_Cesarz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl70> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent> <http://dbpedia.org/resource/Werner_Enterprises> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Agent> <http://www.newsreader-project.eu/data/cars/entities/Heavy_Lift_Ship> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl162> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/General_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl32> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Kia_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Fiat> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Chrysler> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Vietnam> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Lancia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl132> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Silverjet> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://www.newsreader-project.eu/data/cars/entities/Richard_Peter_Cesarz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl70> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Werner_Enterprises> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl119> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/AMC_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl81> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/George_H._W._Bush> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Tata_Group> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl95> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Carlyle_Works_Limited> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl38> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/God> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/BBC> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Proton_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://www.newsreader-project.eu/data/cars/entities/Heavy_Lift_Ship> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Bentley> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Olympus_Corporation> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl34> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/propbank/A0> <http://dbpedia.org/resource/Geely> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl163> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Bob_Lutz_(businessman)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl33> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Peter_Schreyer> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl5> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/George_Clooney> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Jim_Press> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl2> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/J._D._Power> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/J._D._Power_and_Associates> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl6> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Japan> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl120> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/David_Lean> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl84> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Alan_Mulally> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl82> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl9> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://www.newsreader-project.eu/data/cars/entities/Jaguar_and_Land_Rover> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl96> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Magna_Carta> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl39> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://www.newsreader-project.eu/data/cars/entities/Heavenly_Angels> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Ashley_Highfield> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl51> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Lotus_Cars> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Peter_G._Schultz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl37> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Michael_Woodford_(executive)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl35> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/propbank/A1> <http://dbpedia.org/resource/Volvo> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Thailand> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl135> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Luton> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl52> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Little_Rock,_Arkansas> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl73> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Omaha,_Nebraska> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Somalia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl10> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl97> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/The_National_Archives_(United_Kingdom)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl40> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://www.newsreader-project.eu/data/cars/entities/Cornerstone_Hospital_of_Bossier> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Bugatti> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/propbank/A2> <http://dbpedia.org/resource/Ford_Motor_Company> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl136> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/propbank/A3> <http://dbpedia.org/resource/London_Heathrow_Airport> , <http://dbpedia.org/resource/Gatwick_Airport> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/propbank/A3> <http://dbpedia.org/resource/Minneapolis> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl72> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/propbank/A3> <http://dbpedia.org/resource/Georgia_(U.S._state)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl14> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/propbank/A3> <http://dbpedia.org/resource/Spain> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#fv51> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#fv61> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#fv111> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#fv61> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#fv01> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#fv01> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#fv121> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#fv01> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "Uu" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#fv51> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#fv281> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#fv271> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "Uu" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#fv41> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#fv191> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#fv311> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#fv11> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#fv41> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#fv61> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#fv01> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#fv191> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#fv91> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#fv81> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#fv41> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#fv41> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/value/hasFactBankValue> "CT+" .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#dt12> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#dt7> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#dt7> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#dt3> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#tr1> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#tmx1> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#dt1> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#tr12> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#tmx1> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#dt3> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#tr5> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#tmx1> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#tr6> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#tmx2> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#tr27> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#tmx7> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#dt5> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#dt21> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#dt22> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#dt4> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#dt6> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#tr10> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#tmx4> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#dt2> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#tr22> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#tmx2> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#tr14> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#tmx1> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#dt10> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#tr18> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#tmx1> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#tr19> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#tmx2> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#dt1> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasTime> <http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#dct> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/domain-ontology#possession-owner_2> <http://dbpedia.org/resource/Somalia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/domain-ontology#possession-owner_2> <http://dbpedia.org/resource/Tata_Group> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl97> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/domain-ontology#possession-owner_2> <http://dbpedia.org/resource/The_National_Archives_(United_Kingdom)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl40> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/domain-ontology#possession-owner_2> <http://www.newsreader-project.eu/data/cars/entities/Cornerstone_Hospital_of_Bossier> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/domain-ontology#possession-owner_2> <http://dbpedia.org/resource/Proton_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl34> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/domain-ontology#possession-owner_2> <http://dbpedia.org/resource/Geely> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Recipient> <http://dbpedia.org/resource/Tata_Group> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Recipient> <http://dbpedia.org/resource/Proton_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl34> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Recipient> <http://dbpedia.org/resource/Geely> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl135> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Source> <http://dbpedia.org/resource/Luton> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl52> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Source> <http://dbpedia.org/resource/Little_Rock,_Arkansas> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl72> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Source> <http://dbpedia.org/resource/Georgia_(U.S._state)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl14> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Source> <http://dbpedia.org/resource/Spain> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl136> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Goal> <http://dbpedia.org/resource/London_Heathrow_Airport> , <http://dbpedia.org/resource/Gatwick_Airport> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Goal> <http://dbpedia.org/resource/Minneapolis> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl73> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Goal> <http://dbpedia.org/resource/Omaha,_Nebraska> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/ontologies/framenet/Bringing@Goal> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Agent> <http://dbpedia.org/resource/Vietnam> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl9> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Theme> <http://www.newsreader-project.eu/data/cars/entities/Jaguar_and_Land_Rover> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl51> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Theme> <http://dbpedia.org/resource/Lotus_Cars> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl35> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Theme> <http://dbpedia.org/resource/Volvo> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl97> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/framenet/Giving@Recipient> <http://dbpedia.org/resource/The_National_Archives_(United_Kingdom)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl163> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/Bob_Lutz_(businessman)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl33> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/Peter_Schreyer> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl5> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/George_Clooney> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/Jim_Press> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl2> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/J._D._Power> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/J._D._Power_and_Associates> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl84> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/Alan_Mulally> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/Ashley_Highfield> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employee> <http://dbpedia.org/resource/Peter_G._Schultz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl162> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/General_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl32> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/Kia_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/Fiat> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/Chrysler> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/Lancia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/BBC> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/ontologies/framenet/Hiring@Employer> <http://dbpedia.org/resource/Bentley> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl81> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Sender> <http://dbpedia.org/resource/George_H._W._Bush> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl38> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Sender> <http://dbpedia.org/resource/God> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl82> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Theme> <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl39> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Theme> <http://www.newsreader-project.eu/data/cars/entities/Heavenly_Angels> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl163> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Bob_Lutz_(businessman)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl162> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/General_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl33> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Peter_Schreyer> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl32> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Kia_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Fiat> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl5> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/George_Clooney> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Chrysler> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Jim_Press> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Vietnam> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Thailand> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Lancia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl2> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/J._D._Power> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/J._D._Power_and_Associates> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl6> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Japan> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl135> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Luton> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl136> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/London_Heathrow_Airport> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl132> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Silverjet> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl136> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Gatwick_Airport> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Minneapolis> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl52> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Little_Rock,_Arkansas> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://www.newsreader-project.eu/data/cars/entities/Richard_Peter_Cesarz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl72> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Georgia_(U.S._state)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl73> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Omaha,_Nebraska> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl70> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Werner_Enterprises> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl120> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/David_Lean> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl119> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/AMC_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl84> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Alan_Mulally> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl81> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/George_H._W._Bush> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Somalia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl82> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Tata_Group> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl9> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://www.newsreader-project.eu/data/cars/entities/Jaguar_and_Land_Rover> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl10> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl97> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/The_National_Archives_(United_Kingdom)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl96> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Magna_Carta> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl95> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Carlyle_Works_Limited> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl40> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://www.newsreader-project.eu/data/cars/entities/Cornerstone_Hospital_of_Bossier> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl38> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/God> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl39> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://www.newsreader-project.eu/data/cars/entities/Heavenly_Angels> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/BBC> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Ashley_Highfield> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl51> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Lotus_Cars> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Proton_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Bugatti> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl14> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Spain> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://www.newsreader-project.eu/data/cars/entities/Heavy_Lift_Ship> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Bentley> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Peter_G._Schultz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl37> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Michael_Woodford_(executive)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Olympus_Corporation> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl34> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Geely> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Ford_Motor_Company> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl35> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://dbpedia.org/resource/Volvo> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl81> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/domain-ontology#possession-owner_1> <http://dbpedia.org/resource/George_H._W._Bush> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl10> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/domain-ontology#possession-owner_1> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl95> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/domain-ontology#possession-owner_1> <http://dbpedia.org/resource/Carlyle_Works_Limited> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl38> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/domain-ontology#possession-owner_1> <http://dbpedia.org/resource/God> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/domain-ontology#possession-owner_1> <http://dbpedia.org/resource/Bugatti> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/domain-ontology#possession-owner_1> <http://dbpedia.org/resource/Ford_Motor_Company> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl82> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/domain-ontology#possession-theme> <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl9> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/domain-ontology#possession-theme> <http://www.newsreader-project.eu/data/cars/entities/Jaguar_and_Land_Rover> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl96> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/domain-ontology#possession-theme> <http://dbpedia.org/resource/Magna_Carta> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl39> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/domain-ontology#possession-theme> <http://www.newsreader-project.eu/data/cars/entities/Heavenly_Angels> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl51> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/domain-ontology#possession-theme> <http://dbpedia.org/resource/Lotus_Cars> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl35> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/domain-ontology#possession-theme> <http://dbpedia.org/resource/Volvo> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/domain-ontology#translocation-theme> <http://dbpedia.org/resource/Vietnam> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl6> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/domain-ontology#translocation-theme> <http://dbpedia.org/resource/Japan> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl132> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/domain-ontology#translocation-theme> <http://dbpedia.org/resource/Silverjet> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl50> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/domain-ontology#translocation-theme> <http://www.newsreader-project.eu/data/cars/entities/Richard_Peter_Cesarz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl70> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/domain-ontology#translocation-theme> <http://dbpedia.org/resource/Werner_Enterprises> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/domain-ontology#translocation-theme> <http://www.newsreader-project.eu/data/cars/entities/Heavy_Lift_Ship> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl163> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Bob_Lutz_(businessman)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl33> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Peter_Schreyer> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl5> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/George_Clooney> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Jim_Press> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl2> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/J._D._Power> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/J._D._Power_and_Associates> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl120> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/David_Lean> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl84> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Alan_Mulally> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Ashley_Highfield> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Peter_G._Schultz> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl37> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/domain-ontology#employment-employee> <http://dbpedia.org/resource/Michael_Woodford_(executive)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#pr80,rl162> {
+	<http://www.newsreader-project.eu/data/cars/2003/05/12/48MH-K3B0-0015-K0SN.xml#ev18_12> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/General_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#pr16,rl32> {
+	<http://www.newsreader-project.eu/data/cars/2006/08/01/4KJ5-2R90-TX51-F3C4.xml#ev18> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Kia_Motors> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#pr2,rl4> {
+	<http://www.newsreader-project.eu/data/cars/2004/10/18/4DKT-30W0-00S0-W39B.xml#ev17> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Fiat> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/07/4PKW-W5R0-TWX3-01JF.xml#ev23> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Chrysler> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#pr1,rl1> {
+	<http://www.newsreader-project.eu/data/cars/2006/10/16/4M52-F360-TWSV-42N4.xml#ev21> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Lancia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl119> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/AMC_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#pr31,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2007/09/17/4PPH-71T0-TWSV-311V.xml#ev25_11> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#pr2,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2008/11/17/4TY4-C1C0-TX37-G1K8.xml#ev9> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/BBC> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#pr8,rl16> {
+	<http://www.newsreader-project.eu/data/cars/2013/04/23/5884-7DY1-J9XT-P2NN.xml#ev18> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Bentley> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/domain-ontology#employment-employer> <http://dbpedia.org/resource/Olympus_Corporation> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/domain-ontology#translocation-goal> <http://dbpedia.org/resource/Thailand> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/domain-ontology#translocation-goal> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl136> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/domain-ontology#translocation-goal> <http://dbpedia.org/resource/London_Heathrow_Airport> , <http://dbpedia.org/resource/Gatwick_Airport> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/domain-ontology#translocation-goal> <http://dbpedia.org/resource/Minneapolis> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl73> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/domain-ontology#translocation-goal> <http://dbpedia.org/resource/Omaha,_Nebraska> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl15> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/domain-ontology#translocation-goal> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/domain-ontology#translocation-source> <http://dbpedia.org/resource/Thailand> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/domain-ontology#translocation-source> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#pr58,rl135> {
+	<http://www.newsreader-project.eu/data/cars/2006/05/10/4JXF-DF10-TX34-S2JV.xml#ev27_9> <http://www.newsreader-project.eu/domain-ontology#translocation-source> <http://dbpedia.org/resource/Luton> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#pr23,rl52> {
+	<http://www.newsreader-project.eu/data/cars/2007/01/09/4MSP-2W50-TW8Y-R2XR.xml#ev20_2> <http://www.newsreader-project.eu/domain-ontology#translocation-source> <http://dbpedia.org/resource/Little_Rock,_Arkansas> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#pr29,rl72> {
+	<http://www.newsreader-project.eu/data/cars/2005/09/17/4H4D-HC60-010F-F3C4.xml#ev38> <http://www.newsreader-project.eu/domain-ontology#translocation-source> <http://dbpedia.org/resource/Georgia_(U.S._state)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#pr8,rl14> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/17/56V0-C661-JCBF-S406.xml#ev22_2> <http://www.newsreader-project.eu/domain-ontology#translocation-source> <http://dbpedia.org/resource/Spain> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#pr1,rl3> {
+	<http://www.newsreader-project.eu/data/cars/2003/11/30/4B4D-D230-00BT-M2M1.xml#ev28_1> <http://www.newsreader-project.eu/ontologies/framenet/Cause_motion@Source> <http://dbpedia.org/resource/Thailand> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl120> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employee> <http://dbpedia.org/resource/David_Lean> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#pr60,rl119> {
+	<http://www.newsreader-project.eu/data/cars/2006/02/08/4J89-NT70-TWTC-61WV.xml#ev22_11> <http://www.newsreader-project.eu/ontologies/framenet/Employing@Employer> <http://dbpedia.org/resource/AMC_(automobile)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl37> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/ontologies/framenet/Firing@Employee> <http://dbpedia.org/resource/Michael_Woodford_(executive)> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/03/07/5549-K4M1-DXX7-H3S5.xml#ev25> <http://www.newsreader-project.eu/ontologies/framenet/Firing@Employer> <http://dbpedia.org/resource/Olympus_Corporation> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#pr4,rl10> {
+	<http://www.newsreader-project.eu/data/cars/2007/08/26/4PHB-Y770-TX4S-J18M.xml#ev16> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Source> <http://dbpedia.org/resource/Ford_Brasil> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#pr27,rl53> {
+	<http://www.newsreader-project.eu/data/cars/2012/04/04/55B5-R0D1-DYR7-32YW.xml#ev39> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Source> <http://dbpedia.org/resource/Bugatti> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#pr14,rl36> {
+	<http://www.newsreader-project.eu/data/cars/2012/10/22/56WS-S2K1-JC0G-44TP.xml#ev12_3> <http://www.newsreader-project.eu/ontologies/framenet/Getting@Source> <http://dbpedia.org/resource/Ford_Motor_Company> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl95> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/framenet/Giving@Donor> <http://dbpedia.org/resource/Carlyle_Works_Limited> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#pr44,rl96> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/15/4VFC-WBP0-TW87-N10C.xml#ev18_5> <http://www.newsreader-project.eu/ontologies/framenet/Giving@Theme> <http://dbpedia.org/resource/Magna_Carta> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl6> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/ontologies/framenet/Placing@Agent> <http://dbpedia.org/resource/Japan> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#pr4,rl8> {
+	<http://www.newsreader-project.eu/data/cars/2004/06/11/4CKJ-PXH0-015H-94JF.xml#ev15> <http://www.newsreader-project.eu/ontologies/framenet/Placing@Goal> <http://dbpedia.org/resource/Australia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Goal> <http://dbpedia.org/resource/Somalia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl40> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Goal> <http://www.newsreader-project.eu/data/cars/entities/Cornerstone_Hospital_of_Bossier> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#pr39,rl83> {
+	<http://www.newsreader-project.eu/data/cars/2009/01/19/4VDK-0SJ0-TXM4-S0DP.xml#ev43> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Recipient> <http://dbpedia.org/resource/Somalia> .
+}
+
+<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#pr12,rl40> {
+	<http://www.newsreader-project.eu/data/cars/2008/07/11/7Y1J-88M1-2PYR-V0G4.xml#ev9> <http://www.newsreader-project.eu/ontologies/framenet/Sending@Recipient> <http://www.newsreader-project.eu/data/cars/entities/Cornerstone_Hospital_of_Bossier> .
+}
