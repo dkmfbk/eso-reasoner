@@ -1,9 +1,6 @@
 package eu.fbk.eso.reasoner;
 
-import org.omg.CORBA.IRObject;
-import org.openrdf.model.Namespace;
 import org.openrdf.model.URI;
-import org.openrdf.model.impl.NamespaceImpl;
 import org.openrdf.model.impl.ValueFactoryImpl;
 
 /**
@@ -45,6 +42,9 @@ public final class ESO {
     public static final URI day = createURIFromScratch("http://www.w3.org/TR/owl-time#day");
     public static final URI month = createURIFromScratch("http://www.w3.org/TR/owl-time#month");
     public static final URI year = createURIFromScratch("http://www.w3.org/TR/owl-time#year");
+    public static final URI timeInterval = createURIFromScratch("http://www.w3.org/TR/owl-time#Interval");
+    public static final URI timeBefore = createURIFromScratch("http://www.w3.org/TR/owl-time#before");
+    public static final URI timeAfter = createURIFromScratch("http://www.w3.org/TR/owl-time#after");
 
     // Generic and useful
     public static final URI a = createURIFromScratch("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
@@ -52,6 +52,7 @@ public final class ESO {
     public static final URI subpropertyOf = createURIFromScratch("http://www.w3.org/2000/01/rdf-schema#subPropertyOf");
     public static final URI event = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/Event");
     public static final URI owlClass = createURIFromScratch("http://www.w3.org/2002/07/owl#Class");
+    public static final URI someValuesFrom = createURIFromScratch("http://www.w3.org/2002/07/owl#someValuesFrom");
     public static final URI owlProperty = createURIFromScratch("http://www.w3.org/2002/07/owl#ObjectProperty");
     public static final URI onProperty = createURIFromScratch("http://www.w3.org/2002/07/owl#onProperty");
     public static final URI hasValue = createURIFromScratch("http://www.w3.org/2002/07/owl#hasValue");

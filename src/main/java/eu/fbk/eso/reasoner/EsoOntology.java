@@ -1,6 +1,7 @@
 package eu.fbk.eso.reasoner;
 
 //import org.apache.log4j.Logger;
+
 import org.openrdf.model.*;
 import org.openrdf.rio.RDFFormat;
 import org.openrdf.rio.RDFParseException;
@@ -132,13 +133,13 @@ public class EsoOntology {
 			framenetFrames.add(framenetFrame);
 		}
 
-		@Override
-		public String toString() {
-			return "ESOClass{" +
-					"uri=" + this.getUri() +
-					", rules=" + rules +
-					'}';
-		}
+//		@Override
+//		public String toString() {
+//			return "ESOClass{" +
+//					"uri=" + this.getUri() +
+//					", rules=" + rules +
+//					'}';
+//		}
 	}
 
 	public class SituationRuleAssertion extends ESONode {
@@ -225,6 +226,7 @@ public class EsoOntology {
 	private Model model = null;
 	public HashMap<Value, ESOClass> classes = new HashMap<>();
 	public HashMap<Value, ESOProperty> properties = new HashMap<>();
+	public HashMap<Resource, HashSet<Resource>> restrictions = new HashMap<>();
 
 	public EsoOntology(String fileName) {
 		model = loadModel(fileName);
@@ -240,10 +242,6 @@ public class EsoOntology {
 		HashMap<Value, URI> objectFromType = new HashMap<>();
 		objectFromType.put(ESO.binaryRuleAssertion, ESO.hasSituationAssertionObject);
 		objectFromType.put(ESO.unaryRuleAssertion, ESO.hasSituationAssertionObjectValue);
-
-//		for (Statement s : model) {
-//			System.out.println(s);
-//		}
 
 		Model tmpModel;
 
@@ -295,6 +293,49 @@ public class EsoOntology {
 				classes.get(object).addChild(classes.get(subject));
 			}
 		}
+
+		// Restrictions
+		tmpModel = model.filter(null, ESO.someValuesFrom, null);
+		for (Statement statement : tmpModel) {
+			Resource bn = statement.getSubject();
+			Model classModel = model.filter(null, ESO.subclassOf, bn);
+			Model onPropertyModel = model.filter(bn, ESO.onProperty, null);
+
+			Resource thisClass = null;
+			Resource onProperty = null;
+			for (Statement classStatement : classModel) {
+				thisClass = classStatement.getSubject();
+				break;
+			}
+
+			for (Statement propertyStatement : onPropertyModel) {
+				onProperty = (Resource) propertyStatement.getObject();
+				break;
+			}
+
+			if (thisClass == null || onProperty == null) {
+				continue;
+			}
+
+			for (ESOClass esoClass : getDescendants(classes.get(thisClass))) {
+				Resource thisCompleteClass = (Resource) esoClass.getUri();
+				if (restrictions.get(thisCompleteClass) == null) {
+					restrictions.put(thisCompleteClass, new HashSet<>());
+				}
+				restrictions.get(thisCompleteClass).add(onProperty);
+			}
+		}
+
+//		for (Value value : classes.keySet()) {
+//			System.out.println(value);
+//			System.out.println(classes.get(value));
+//		}
+
+//		for (Resource resource : restrictions.keySet()) {
+//			System.out.println(resource);
+//			System.out.println(restrictions.get(resource));
+//			System.out.println();
+//		}
 
 		// Rule assertions
 		HashMap<Value, SituationRuleAssertion> assertions = new HashMap<>();
