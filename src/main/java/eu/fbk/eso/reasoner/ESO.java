@@ -58,6 +58,13 @@ public final class ESO {
     public static final URI hasValue = createURIFromScratch("http://www.w3.org/2002/07/owl#hasValue");
     public static final URI hasTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasTime");
 
+    public static final URI hasAtTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasAtTime");
+    public static final URI hasBeginTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTime");
+    public static final URI hasEndTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTime");
+    public static final URI hasEarliestBeginTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTime");
+    public static final URI hasFutureTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasFutureTime");
+    public static final URI hasEarliestEndTime = createURIFromScratch("http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTime");
+
     // Helper methods
     public static URI createURI(final String localName) {
         return ValueFactoryImpl.getInstance().createURI(NAMESPACE, localName);

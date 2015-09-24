@@ -17,6 +17,7 @@ import javax.annotation.Nullable;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
 
 public class ReasonerProcessor implements RDFProcessor {
 
@@ -31,6 +32,29 @@ public class ReasonerProcessor implements RDFProcessor {
 
 	private static final String inferredInstances = "http://www.newsreader-project.eu/inf-instances";
 	private static final Resource inferredInstancesResource = ValueFactoryImpl.getInstance().createURI(inferredInstances);
+
+	public static final Set<URI> timeURIs = new HashSet<>();
+	static {
+		timeURIs.add(ESO.hasAtTime);
+		timeURIs.add(ESO.hasBeginTime);
+		timeURIs.add(ESO.hasEndTime);
+		timeURIs.add(ESO.hasEarliestBeginTime);
+		timeURIs.add(ESO.hasFutureTime);
+		timeURIs.add(ESO.hasEarliestEndTime);
+		timeURIs.add(ESO.hasTime);
+	}
+
+	public static final Set<URI> beginURIs = new HashSet<>();
+	static {
+		beginURIs.add(ESO.hasBeginTime);
+		beginURIs.add(ESO.hasEarliestBeginTime);
+	}
+
+	public static final Set<URI> endURIs = new HashSet<>();
+	static {
+		endURIs.add(ESO.hasEndTime);
+		endURIs.add(ESO.hasEarliestEndTime);
+	}
 
 	/**
 	 * Internal factory method called by RDFpro to create and initialize the processor starting
@@ -105,10 +129,18 @@ public class ReasonerProcessor implements RDFProcessor {
 			}
 
 			HashSet<Statement> times = new HashSet<>();
-			Model timeModel = model.filter(null, ESO.hasTime, null);
-			for (Statement statement : timeModel) {
-				times.add(statement);
+			for (URI timeURI : timeURIs) {
+				Model timeModel = model.filter(null, timeURI, null);
+				for (Statement statement : timeModel) {
+					times.add(statement);
+				}
 			}
+
+//			Model timeModel = model.filter(null, ESO.hasTime, null);
+//			for (Statement statement : timeModel) {
+//				times.add(statement);
+//				System.out.println(statement);
+//			}
 			if (times.size() == 0) {
 				//todo: Che fare?
 			}
@@ -265,15 +297,17 @@ public class ReasonerProcessor implements RDFProcessor {
 
 							s = ValueFactoryImpl.getInstance().createStatement(situation, RDF.TYPE, ESO.situation, situationGraph);
 							handler.handleStatement(s);
-//							System.out.println(s);
 							s = ValueFactoryImpl.getInstance().createStatement(event, ruleType, situation, situationGraph);
 							handler.handleStatement(s);
-//							System.out.println(s);
 
 							for (Statement time : times) {
 								String suffix = time.getObject().stringValue().substring(time.getObject().stringValue().lastIndexOf("#") + 1);
 								switch (situationName) {
 									case "pre":
+										if (endURIs.contains(time.getPredicate())) {
+//											System.out.println("PRE - " + time);
+											break;
+										}
 										URI situationTimeBefore = ValueFactoryImpl.getInstance().createURI(situation.stringValue() + "_time_" + suffix);
 										s = ValueFactoryImpl.getInstance().createStatement(situation, time.getPredicate(), situationTimeBefore, situationGraph);
 										handler.handleStatement(s);
@@ -283,6 +317,10 @@ public class ReasonerProcessor implements RDFProcessor {
 										handler.handleStatement(s);
 										break;
 									case "post":
+										if (beginURIs.contains(time.getPredicate())) {
+//											System.out.println("POST - " + time);
+											break;
+										}
 										URI situationTimeAfter = ValueFactoryImpl.getInstance().createURI(situation.stringValue() + "_time_" + suffix);
 										s = ValueFactoryImpl.getInstance().createStatement(situation, time.getPredicate(), situationTimeAfter, situationGraph);
 										handler.handleStatement(s);

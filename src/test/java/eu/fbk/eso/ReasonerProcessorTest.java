@@ -13,12 +13,12 @@ public class ReasonerProcessorTest {
     @Test
     @Ignore
     public void test() throws RDFHandlerException {
-        final String inputFile = "[path to trig file]";
-        final String ontologyFile = "[path to ESO owl file]";
-        final String outputFile = "[path to output file]";
+        final String inputFile = "/Users/alessio/Desktop/eso/events/all.ok.trig";
+        final String ontologyFile = "/Users/alessio/Documents/scripts/eso/ESO_V2_Final.owl";
+        final String outputFile = "/tmp/out.tql";
         TQL.register();
 
-        final String cmd = String.format("@read %s @reformattime @filtertype @esoreasoner %s @write %s", inputFile, ontologyFile, outputFile);
+        final String cmd = String.format("@read %s @reformattime @filtertype @esoreasoner -i %s @write %s", inputFile, ontologyFile, outputFile);
 
         RDFProcessors.parse(true, cmd).apply(RDFSources.NIL, RDFHandlers.NIL, 1);
     }
