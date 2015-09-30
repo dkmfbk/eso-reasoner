@@ -23,4 +23,17 @@ public class ReasonerProcessorTest {
         RDFProcessors.parse(true, cmd).apply(RDFSources.NIL, RDFHandlers.NIL, 1);
     }
 
+    @Test
+    @Ignore
+    public void testNaf2Sem() throws RDFHandlerException {
+        final String inputFile = "/Users/alessio/Desktop/test.trig";
+//        final String ontologyFile = "/Users/alessio/Documents/scripts/eso/ESO_V2_Final.owl";
+//        final String outputFile = "/tmp/out.tql";
+        TQL.register();
+
+        final String cmd = String.format("@read %s @naf2sem -b /tmp/ -k http://localhost:9058/", inputFile);
+
+        RDFProcessors.parse(true, cmd).apply(RDFSources.NIL, RDFHandlers.NIL, 1);
+    }
+
 }

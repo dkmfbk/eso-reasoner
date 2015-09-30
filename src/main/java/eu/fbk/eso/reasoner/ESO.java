@@ -34,6 +34,7 @@ public final class ESO {
     public static final URI hasSituationAssertionObject = createURI("hasSituationAssertionObject");
     public static final URI hasSituationAssertionObjectValue = createURI("hasSituationAssertionObjectValue");
     public static final URI hasSituationRuleAssertion = createURI("hasSituationRuleAssertion");
+
     public static final URI situation = createURI("Situation");
     public static final URI hasPreSituation = createURI("hasPreSituation");
     public static final URI hasPostSituation = createURI("hasPostSituation");
