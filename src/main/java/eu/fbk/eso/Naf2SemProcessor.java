@@ -218,14 +218,17 @@ public class Naf2SemProcessor implements RDFProcessor {
 		}
 
 		@Override
-		public void handleStatement(Statement statement) throws RDFHandlerException {
-			statements.add(statement);
+		synchronized public void handleStatement(Statement statement) throws RDFHandlerException {
+			if (statement != null) {
+				statements.add(statement);
+			}
 		}
 
 		@Override
 		public void endRDF() throws RDFHandlerException {
 
 			Session session;
+			String thisDate = dateFormat.format(new Date());
 
 			if (savePath != null) {
 				RDFSource source = RDFSources.wrap(statements);
@@ -233,13 +236,14 @@ public class Naf2SemProcessor implements RDFProcessor {
 				StringBuffer fileName = new StringBuffer();
 				fileName.append(savePath.getAbsolutePath());
 				fileName.append(File.separator);
-				fileName.append("nwr-").append(dateFormat.format(new Date())).append(".trig.gz");
+				fileName.append("nwr-").append(thisDate).append(".trig.gz");
 
 				try {
 					RDFHandler rdfHandler = RDFHandlers.write(null, 1000, fileName.toString());
 					RDFProcessors.prefix(null).wrap(source).emit(rdfHandler, 1);
 				} catch (Exception e) {
 					LOGGER.error("Input/output error, the file {} has not been saved ({})", fileName, e.getMessage());
+					e.printStackTrace();
 				}
 			}
 
@@ -257,6 +261,7 @@ public class Naf2SemProcessor implements RDFProcessor {
 					sameAsList.add((URI) statement.getObject());
 				}
 			}
+			LOGGER.info("sameAs list contains {} URIs", sameAsList.size());
 
 			List<RDFProcessor> processors = new ArrayList<>();
 
@@ -281,6 +286,10 @@ public class Naf2SemProcessor implements RDFProcessor {
 				session.close();
 			}
 
+			LOGGER.info("Statements: {}", statements.size());
+			LOGGER.info("Situation statements: {}", situationStatements.size());
+			LOGGER.info("Desc statements: {}", descStatements.size());
+
 			// gen_definedBy.groovy
 			if (defByGroovy != null) {
 				processors.add(RDFProcessors.parse(true, "@groovy -p " + defByGroovy));
@@ -302,35 +311,67 @@ public class Naf2SemProcessor implements RDFProcessor {
 
 			RDFProcessor finalProcessor = RDFProcessors.sequence(
 					RDFProcessors.smush(),
+					RDFProcessors.transform(Transformer.filter((Statement statement) -> !statement.getPredicate().equals(OWL.SAMEAS))),
 					allProcessors,
 					esoProcessor,
 					RDFProcessors.unique(false)
 			);
 
-			List<Statement> statementsToAdd = new ArrayList<>();
+			List<Statement> statementsToAdd = Collections.synchronizedList(new ArrayList<>());
 			List<Statement> statementsToDelete = new ArrayList<>();
 
 			finalProcessor.apply(RDFSources.wrap(Iterables.concat(statements, descStatements)), RDFHandlers.wrap(statementsToAdd), 1);
 			statementsToDelete.addAll(descStatements);
 			statementsToDelete.addAll(situationStatements);
 
-			String tempFileName = null;
+			LOGGER.info("Deleting {} statements", statementsToDelete.size());
+			LOGGER.info("Adding {} statements", statementsToAdd.size());
+
+			HashSet<String> tempFileNames = new HashSet<>();
 
 			if (savePath != null) {
-				RDFSource source = RDFSources.wrap(statementsToDelete);
+				RDFSource source;
+				StringBuilder fileName;
+				String tempFileName;
 
-				StringBuffer fileName = new StringBuffer();
+				// update
+
+				source = RDFSources.wrap(statementsToAdd);
+
+				fileName = new StringBuilder();
 				fileName.append(savePath.getAbsolutePath());
 				fileName.append(File.separator);
-				fileName.append("nwr-delete.tmp.tql.gz");
+				fileName.append("nwr-add-").append(thisDate).append(".trig.gz");
 
 				tempFileName = fileName.toString();
+				tempFileNames.add(tempFileName);
 
 				try {
 					RDFHandler rdfHandler = RDFHandlers.write(null, 1000, tempFileName);
 					RDFProcessors.prefix(null).wrap(source).emit(rdfHandler, 1);
 				} catch (Exception e) {
-					LOGGER.error("Input/output error, the file {} has not been saved ({})", fileName, e.getMessage());
+					LOGGER.error("Input/output error, the file {} has not been saved ({})", tempFileName, e.getMessage());
+					e.printStackTrace();
+				}
+
+				// delete
+
+				source = RDFSources.wrap(statementsToDelete);
+
+				fileName = new StringBuilder();
+				fileName.append(savePath.getAbsolutePath());
+				fileName.append(File.separator);
+				fileName.append("nwr-delete-").append(thisDate).append(".trig.gz");
+
+				tempFileName = fileName.toString();
+				tempFileNames.add(tempFileName);
+
+				try {
+					RDFHandler rdfHandler = RDFHandlers.write(null, 1000, tempFileName);
+					RDFProcessors.prefix(null).wrap(source).emit(rdfHandler, 1);
+				} catch (Exception e) {
+					LOGGER.error("Input/output error, the file {} has not been saved ({})", tempFileName, e.getMessage());
+					e.printStackTrace();
 				}
 			}
 
@@ -339,12 +380,14 @@ public class Naf2SemProcessor implements RDFProcessor {
 				session.sparqldelete().statements(statementsToDelete).exec();
 				session.sparqlupdate().statements(statementsToAdd).exec();
 
-				if (savePath != null) {
-					File f = new File(tempFileName);
-					if (f.exists()) {
-						f.delete();
-					}
-				}
+//				if (savePath != null) {
+//					for (String tempFileName : tempFileNames) {
+//						File f = new File(tempFileName);
+//						if (f.exists()) {
+//							f.delete();
+//						}
+//					}
+//				}
 			} catch (OperationException e) {
 				e.printStackTrace();
 			} finally {
@@ -359,6 +402,7 @@ public class Naf2SemProcessor implements RDFProcessor {
 			Value p = bindingset.getValue("p");
 			Value o = bindingset.getValue("o");
 			Value g = bindingset.getValue("g");
+
 			if (s instanceof Resource && p instanceof URI && o instanceof Value && g instanceof Resource) {
 				ContextStatementImpl statement = new ContextStatementImpl((Resource) s, (URI) p, (Value) o, (Resource) g);
 				statements.add(statement);
