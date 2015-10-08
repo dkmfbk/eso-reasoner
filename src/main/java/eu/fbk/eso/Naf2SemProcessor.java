@@ -243,7 +243,7 @@ public class Naf2SemProcessor implements RDFProcessor {
 					RDFProcessors.prefix(null).wrap(source).emit(rdfHandler, 1);
 				} catch (Exception e) {
 					LOGGER.error("Input/output error, the file {} has not been saved ({})", fileName, e.getMessage());
-					e.printStackTrace();
+					throw new RDFHandlerException(e);
 				}
 			}
 
@@ -274,14 +274,16 @@ public class Naf2SemProcessor implements RDFProcessor {
 					for (BindingSet bindingset : stream) {
 						addBindingSetToStatements(bindingset, descStatements);
 					}
+					stream.close();
 
 					stream = session.sparql(querySituation, uri).execTuples();
 					for (BindingSet bindingset : stream) {
 						addBindingSetToStatements(bindingset, situationStatements);
 					}
+					stream.close();
 				}
 			} catch (OperationException e) {
-				e.printStackTrace();
+				throw new RDFHandlerException(e);
 			} finally {
 				session.close();
 			}
@@ -351,7 +353,7 @@ public class Naf2SemProcessor implements RDFProcessor {
 					RDFProcessors.prefix(null).wrap(source).emit(rdfHandler, 1);
 				} catch (Exception e) {
 					LOGGER.error("Input/output error, the file {} has not been saved ({})", tempFileName, e.getMessage());
-					e.printStackTrace();
+					throw new RDFHandlerException(e);
 				}
 
 				// delete
@@ -371,7 +373,7 @@ public class Naf2SemProcessor implements RDFProcessor {
 					RDFProcessors.prefix(null).wrap(source).emit(rdfHandler, 1);
 				} catch (Exception e) {
 					LOGGER.error("Input/output error, the file {} has not been saved ({})", tempFileName, e.getMessage());
-					e.printStackTrace();
+					throw new RDFHandlerException(e);
 				}
 			}
 
@@ -389,7 +391,7 @@ public class Naf2SemProcessor implements RDFProcessor {
 //					}
 //				}
 			} catch (OperationException e) {
-				e.printStackTrace();
+				throw new RDFHandlerException(e);
 			} finally {
 				session.close();
 			}
